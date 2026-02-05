@@ -97,7 +97,7 @@ async function generateSong(song, index, total) {
   const payload = {
     prompt: `${song.prompt}, female vocals, gentle and emotional woman's singing voice`,
     lyrics: song.lyrics,
-    audio_duration: 120,
+    audio_duration: 180, // 3分钟
     infer_step: 50,
     guidance_scale: 15.0,
     scheduler_type: 'euler',

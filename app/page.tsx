@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Music, Play, Pause, Sparkles, Download, Settings, Music2 } from 'lucide-react';
 import { generateMusic, recommendedMusic } from '@/lib/api';
 
@@ -91,7 +92,16 @@ export default function Home() {
               AI音乐生成器
             </h1>
           </div>
-          <p className="text-gray-300 text-lg">基于ACE-Step模型，使用AI创造独特的音乐</p>
+          <p className="text-gray-300 text-lg mb-6">基于ACE-Step模型，使用AI创造独特的音乐</p>
+          <div className="flex items-center justify-center gap-4">
+            <Link
+              href="/batch"
+              className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 rounded-xl font-semibold transition-all shadow-lg shadow-purple-500/30 flex items-center gap-2"
+            >
+              <Sparkles className="w-5 h-5" />
+              批量生成30首歌曲
+            </Link>
+          </div>
         </header>
 
         <div className="grid lg:grid-cols-2 gap-8">
