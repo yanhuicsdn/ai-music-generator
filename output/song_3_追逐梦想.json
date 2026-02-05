@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "title": "追逐梦想",
+  "theme": "梦想",
+  "mood": "励志、向上",
+  "prompt": "Inspiring piano melody about chasing dreams",
+  "lyrics": "[verse]\n心中有个梦想\n像星星闪光芒\n虽然路途漫长\n但我不会彷徨\n\n[chorus]\n追逐梦想\n勇敢飞翔\n无论多远多高\n都要去闯荡",
+  "audio_url": "https://gpu-pod695f21981228d81fa9e89bc7-8000.web.gpu.csdn.net/output/追逐梦想.wav",
+  "output_path": "./output/追逐梦想.wav",
+  "file_name": "追逐梦想",
+  "duration_seconds": "15.7",
+  "status": "success",
+  "generated_at": "2026-02-05T13:55:48.903Z"
+}

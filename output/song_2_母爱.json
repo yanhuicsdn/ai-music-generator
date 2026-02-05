@@ -1,0 +1,14 @@
+{
+  "id": 2,
+  "title": "母爱",
+  "theme": "母爱",
+  "mood": "温暖、感恩",
+  "prompt": "Tender piano melody about mother's love",
+  "lyrics": "[verse]\n妈妈的手温暖厚\n抚平我所有伤口\n她的爱像河流\n永不枯竭不回头\n\n[chorus]\n妈妈我爱你\n你的爱无与伦比\n愿时光慢些走\n让我好好陪伴你",
+  "audio_url": "https://gpu-pod695f21981228d81fa9e89bc7-8000.web.gpu.csdn.net/output/母爱.wav",
+  "output_path": "./output/母爱.wav",
+  "file_name": "母爱",
+  "duration_seconds": "14.1",
+  "status": "success",
+  "generated_at": "2026-02-05T13:55:32.169Z"
+}

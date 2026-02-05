@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浪漫爱情歌曲 - AI音乐生成器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .player {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .audio-container {
+            margin-bottom: 30px;
+        }
+
+        audio {
+            width: 100%;
+            height: 50px;
+            border-radius: 25px;
+        }
+
+        .lyrics-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .lyrics-container h2 {
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .lyrics {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
+            white-space: pre-wrap;
+            font-size: 1em;
+        }
+
+        .tag {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .download-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(245, 87, 108, 0.4);
+        }
+
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9em;
+        }
+
+        .info-item {
+            margin: 8px 0;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        /* Scrollbar styling */
+        .lyrics-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .lyrics-container::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        .lyrics-container::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+        }
+
+        .lyrics-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <h1>💕 浪漫爱情歌曲</h1>
+        <p class="subtitle">由AI创作 - 欢快流行歌风格</p>
+
+        <div class="audio-container">
+            <audio controls>
+                <source src="https://gpu-pod695f21981228d81fa9e89bc7-8000.web.gpu.csdn.net/output/output_7e0d0f65cd2e4517a4764a22d42dd74e.wav" type="audio/wav">
+                您的浏览器不支持音频播放
+            </audio>
+        </div>
+
+        <div class="lyrics-container">
+            <h2>📝 歌词</h2>
+            <div class="lyrics"><span class="tag">[verse]</span>
+遇见你那天阳光正好
+你的微笑像春天的味道
+心跳加速无处可逃
+这种感觉多么奇妙
+
+<span class="tag">[verse]</span>
+牵着你的手漫步街道
+所有烦恼都随风飘摇
+你的眼眸闪耀着星光
+照亮我每一个清早
+
+<span class="tag">[chorus]</span>
+爱在阳光下绽放
+你是最美的篇章
+牵着你的手飞翔
+到地老到天荒
+
+<span class="tag">[chorus]</span>
+爱在阳光下绽放
+写下幸福的乐章
+有你在我的身旁
+就是天堂的模样
+
+<span class="tag">[bridge]</span>
+无论春夏秋冬怎样变换
+无论世界怎样千回百转
+有你的爱就足够温暖
+我们的故事永远写不完
+
+<span class="tag">[chorus]</span>
+爱在阳光下绽放
+你是最美的篇章
+牵着你的手飞翔
+到地老到天荒
+
+<span class="tag">[outro]</span>
+这就是爱
+我们的爱
+永远的所在</div>
+        </div>
+
+        <div class="info">
+            <div class="info-item">
+                <span class="info-label">🎵 风格:</span> 欢快流行歌
+            </div>
+            <div class="info-item">
+                <span class="info-label">💕 主题:</span> 浪漫爱情
+            </div>
+            <div class="info-item">
+                <span class="info-label">⏱️ 时长:</span> 3分钟
+            </div>
+            <div class="info-item">
+                <span class="info-label">🎲 种子:</span> 888
+            </div>
+        </div>
+
+        <a href="https://gpu-pod695f21981228d81fa9e89bc7-8000.web.gpu.csdn.net/output/output_7e0d0f65cd2e4517a4764a22d42dd74e.wav"
+           class="download-btn"
+           download="浪漫爱情歌曲.wav">
+            📥 下载歌曲
+        </a>
+
+        <p style="text-align: center; margin-top: 20px; color: rgba(255,255,255,0.6); font-size: 0.85em;">
+            由 ACE-Step AI 音乐生成模型创作
+        </p>
+    </div>
+</body>
+</html>

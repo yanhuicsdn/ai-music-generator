@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "title": "初次相遇",
+  "theme": "初遇",
+  "mood": "甜蜜、心跳",
+  "prompt": "A beautiful piano melody capturing the moment of first love encounter, sweet and tender",
+  "lyrics": "[verse]\n人群之中看见你\n时间仿佛停止呼吸\n你的笑容如此清晰\n让我忘掉了自己\n\n[chorus]\n第一次遇见你\n世界变得美丽\n这一刻的记忆\n永远珍藏在心底",
+  "audio_url": "https://gpu-pod695f21981228d81fa9e89bc7-8000.web.gpu.csdn.net/output/初次相遇.wav",
+  "output_path": "./output/初次相遇.wav",
+  "file_name": "初次相遇",
+  "duration_seconds": "15.3",
+  "status": "success",
+  "generated_at": "2026-02-05T13:55:17.035Z"
+}
